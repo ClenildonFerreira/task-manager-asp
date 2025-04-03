@@ -1,0 +1,1 @@
+<a href="deletar.asp?id=<%=Request.QueryString("id")%>">Confirmar Exclusão</a>
