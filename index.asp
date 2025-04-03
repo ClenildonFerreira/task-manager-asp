@@ -28,11 +28,17 @@ Set rs = conn.Execute(sql)
             <td class="p-3 border border-gray-300"><%=rs("Description")%></td>
             <td class="p-3 border border-gray-300"><%=Left(rs("DueDate"), 10)%></td>
             <td class="p-3 border border-gray-300">
-              <% If rs("IsCompleted") = True Then %>
+              <%
+                If CInt(rs("IsCompleted")) = 1 Then
+              %>
                 <span class="text-green-600 font-semibold">Concluída</span>
-              <% Else %>
+              <%
+                Else
+              %>
                 <span class="text-red-600 font-semibold">Pendente</span>
-              <% End If %>
+              <%
+                End If
+              %>
             </td>
             <td class="p-3 border border-gray-300 space-x-2">
               <a href="edit.asp?id=<%=rs("Id")%>" class="text-blue-500 hover:underline">Editar</a>
