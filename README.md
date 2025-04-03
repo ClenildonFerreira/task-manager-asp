@@ -4,7 +4,7 @@ Este projeto é uma aplicação web desenvolvida em ASP Clássico que permite o 
 
 > Desenvolvido por **Clenildon Ferreira** como parte de um desafio técnico
 
-🎥 **Demonstração em vídeo**: [Assista no YouTube](https://youtu.be/sVH4CYYYU0w)
+🎥 **Demonstração em vídeo**: [Assista no YouTube](https://www.youtube.com/watch?v=jPSQgihOdd4)
 
 ---
 
