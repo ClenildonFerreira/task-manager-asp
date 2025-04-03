@@ -1,0 +1,19 @@
+# Arquivos do Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Logs
+*.log
+
+# Banco de dados local temporário
+*.sql
+
+# Editor
+.vscode/
+.idea/
+
+# Backup de arquivos
+*.bak
+*.tmp
+*~
