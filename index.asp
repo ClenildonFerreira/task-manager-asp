@@ -56,7 +56,7 @@ Set rs = conn.Execute(sql)
   </div>
 
   <div class="text-center mt-6">
-    <a href="add.asp" class="bg-blue-500 text-white px-6 py-2 rounded hover:bg-blue-600 transition">
+    <a href="adicionar.asp" class="bg-blue-500 text-white px-6 py-2 rounded hover:bg-blue-600 transition">
       ➕ Adicionar Nova Tarefa
     </a>
   </div>
